@@ -21,3 +21,13 @@ Se descargó el instalador oficial desde el sitio web de Visual Studio Code.Se e
 Problema 1: El software no reconocía los comandos del lenguaje en la terminalDescripción: Al intentar ejecutar un archivo de prueba en la terminal integrada del IDE, aparecía el error "Python no se reconoce como un comando interno o externo".Causa: El instalador del lenguaje de programación no se había agregado correctamente a las variables de entorno (PATH) del sistema operativo durante la instalación inicial del intérprete.Solución: Se abrió nuevamente el instalador de Python, se seleccionó la opción de "Modificar" y se marcó manualmente la casilla "Add Python to PATH". Tras reiniciar el IDE, el problema quedó solucionado.
 
 El entorno de desarrollo quedó completamente operativo. Se realizaron pruebas ejecutando un código básico de "Hola Mundo" y el editor resaltó la sintaxis de forma correcta, la terminal integrada respondió sin demoras y el depurador funcionó sin lanzar nuevos códigos de error.
+
+
+
+
+
+Clona el proyecto: Abre tu terminal, ve a tu carpeta de tareas y escribe:bashgit clone [ENLACE_DEL_REPOSITORIO]
+Usa el código con precaución.Entra a la carpeta:bashcd [nombre-del-proyecto]
+Usa el código con precaución.Ábrelo en VS Code: Abre el editor directamente desde ahí con:bashcode .
+Usa el código con precaución.Pruébalo: Abre la terminal de VS Code (Ctrl + J) y corre el archivo principal:bashpython index.py
+Usa el código con precaución.
